@@ -37,7 +37,7 @@
     }
     NSLog(@"%@",province);
     
-    //得到市的model的数组
+    //得到市的model的数组     
     NSArray *arr2=[NSArray arrayWithArray:[addFMDBManager selectAllCityFrom:1]];
 
     for (CityAddressModel *cityModel in arr2) {
